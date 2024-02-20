@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+<configuration>
+	<typeAliases>
+		<!-- <typeAlias type="java.lang.Integer" alias="integer"/> --> <!-- 예시 -->
+		<!-- 우리가 만든 dto 같은 건 경로 제대로 써줘야 함 -->
+		<typeAlias type="org.poseidon.dto.BoardDTO" alias="boardDTO"/>
+	</typeAliases>
+</configuration>
